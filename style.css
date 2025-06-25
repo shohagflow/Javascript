@@ -1,0 +1,44 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rebeccapurple;
+}
+
+#menu ul{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#menu li{
+    display: inline-block;
+    border: 2px solid rgba(163, 163, 118, 0.867);
+    height: 70px;
+    width: 70px;
+    margin: 0 20px;
+    box-shadow: 0 0 10px #ddd;
+    cursor: pointer;
+
+}
+
+#menu li.red{
+    background-color: rgb(236, 72, 72);
+
+}
+
+#menu li.green{
+    background-color: rgb(32, 92, 32);
+    
+}
+
+#menu li.yellow{
+    background-color: rgb(124, 124, 29);
+    
+}
+
+
+
