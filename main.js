@@ -24,3 +24,20 @@ button.forEach(function(value){
         body.style.background = color;
     })
 });
+
+// Second project BMI Calculator 
+
+let height = document.getElementById('height');
+let weight = document.getElementById('weight');
+let btn = document.getElementById('btn');
+let score = document.getElementById('score');
+
+button.addEventListener(clicl, function(){
+    let heightNew = height.value;
+
+});
+
+let form = document.getElementById('bmiForm');
+form.addEventListener(submit, function(e){
+    e.preventDefault();
+});

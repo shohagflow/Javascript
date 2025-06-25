@@ -1,21 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body id="body">
-    
-<nav id="menu">
-    <ul>
-        <li class = 'red'></li>
-        <li class = 'green'></li>
-        <li class = 'yellow'></li>
-    </ul>
-</nav>
+
+    <nav id="menu">
+        <ul>
+            <li class='red'></li>
+            <li class='green'></li>
+            <li class='yellow'></li>
+        </ul>
+    </nav>
+    <br><br>
+    <hr>
+    <br><br>
+    <!--  Second project BMI Calculator  -->
+
+  <div id="bmi_parent">
+    <h1>BMI Calculator</h1>
+    <form id="bmiForm" action="">
+      <label for="height">Height (in cm)</label>
+      <input id="height" type="number" placeholder="e.g., 170" required>
+
+      <label for="weight">Weight (in kg)</label>
+      <input id="weight" type="number" placeholder="e.g., 65" required>
+
+      <button id='button' type="submit">Calculate</button>
+    </form>
+    <div id="result">
+        <h3> Your Result</h1>
+        <h4 id="score">52.22</h4>
+    </div>
+  </div>
+
 
     <script src="/main.js"></script>
 </body>
+
 </html>

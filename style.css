@@ -1,20 +1,22 @@
-*, *::after, *::before{
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     list-style: none;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rebeccapurple;
 }
 
-#menu ul{
+#menu ul {
     text-align: center;
     margin-top: 50px;
 }
 
-#menu li{
+#menu li {
     display: inline-block;
     border: 2px solid rgba(163, 163, 118, 0.867);
     height: 70px;
@@ -25,20 +27,87 @@ body{
 
 }
 
-#menu li.red{
+#menu li.red {
     background-color: rgb(236, 72, 72);
 
 }
 
-#menu li.green{
+#menu li.green {
     background-color: rgb(32, 92, 32);
-    
+
 }
 
-#menu li.yellow{
+#menu li.yellow {
     background-color: rgb(124, 124, 29);
-    
+
 }
 
+/* Second project BMI Calculator  */
+#bmi_parent {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    justify-self: center;
+}
 
+#bmi_parent h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
 
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #555;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #222;
+}
+
+.bmi-category {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+#score{
+    color: #222;
+    background-color: #c5c0c0;
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 17px;
+    font-weight: 500;
+}
